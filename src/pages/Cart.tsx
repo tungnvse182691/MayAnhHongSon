@@ -26,8 +26,8 @@ export default function Cart() {
       {/* Top Navigation Bar */}
       <header className="fixed top-0 w-full z-[100] h-20 glass-nav border-b border-white/5 bg-black/95 transition-all duration-500" id="main-nav">
         <div className="flex justify-between items-center px-margin_mobile md:px-gutter h-full max-w-container_max mx-auto gap-gutter">
-          <Link className="flex items-center gap-2 h-full py-4 shrink-0" to="/">
-            <img alt="ChoMáyẢnh.vn" className="h-9 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/ADBb0uhlyiQMDoeG38GBExfPDA9lNP0jQnX-KOH8Jl2KHU-dkcB7DOiAH-X0ngvWZcfGdMQUu0yV3URx6A9X9f6mTBk287qhA6M3yme_M9x-VAhlwhEYgOnb-vFwRohFehPbG4DNGonPcCnc9EfRsYWcOr_vW6o3jPU2mtSEnEjOVKF-YZ_7pnSvthfxMc9_u0IkpTrEXYmy2InE2JLUNqP6STTeZvuNFrUWKrZ2FDdS9TvsAGm1N4SFTTwYWRBZe6Ly89Mb3NduyKPE"/>
+          <Link className="flex items-center gap-2 h-full shrink-0" to="/">
+            <span className="text-2xl font-bold tracking-tight text-white uppercase">Máy Ảnh HS</span>
           </Link>
           <div className="hidden md:flex flex-1 max-w-xl mx-8">
             <div className="relative w-full h-10 bg-white/10 border border-white/10 rounded-full flex items-center px-4 backdrop-blur-xl group focus-within:bg-white/15 transition-all">

@@ -46,12 +46,12 @@ export default function Home() {
       </div>
 
       <main>
-        {/* Sản phẩm bán chạy (Product Highlights) */}
+        {/* Sản phẩm nổi bật (Featured Products) */}
         <section className="py-24 bg-white">
-          <div className="max-w-[1600px] mx-auto px-4 md:px-8">
-            <h2 className="text-5xl font-light mb-12 text-black tracking-tight">Product highlights</h2>
+          <div className="max-w-[1100px] mx-auto px-4 md:px-8">
+            <h2 className="text-5xl font-serif text-center mb-12 text-black tracking-tight">Sản phẩm nổi bật</h2>
             
-            <div className="flex gap-8 mb-12 text-sm uppercase tracking-widest overflow-x-auto whitespace-nowrap">
+            <div className="flex justify-center gap-8 mb-12 text-sm uppercase tracking-widest overflow-x-auto whitespace-nowrap">
               <button 
                 onClick={() => setActiveTab('banchay')}
                 className={`pb-1 transition-colors ${activeTab === 'banchay' ? 'text-black font-bold border-b-2 border-black' : 'text-gray-400 hover:text-black border-transparent'}`}
@@ -293,11 +293,11 @@ export default function Home() {
            </div>
         </section>
 
-        {/* Ống kính chuyên nghiệp (Lenses) */}
+        {/* Sản phẩm mới (Lenses) */}
         <section className="py-24 bg-white">
-          <div className="max-w-[1600px] mx-auto px-4 md:px-8">
-            <div className="mb-12">
-              <h2 className="text-4xl font-normal text-black mb-4">Ống kính chuyên nghiệp</h2>
+          <div className="max-w-[1100px] mx-auto px-4 md:px-8">
+            <div className="mb-12 text-center">
+              <h2 className="text-5xl font-serif text-black mb-4">Sản phẩm mới</h2>
               <p className="text-gray-500 text-lg">Hệ thống ống kính cao cấp giúp bạn chinh phục mọi góc nhìn.</p>
             </div>
             
@@ -399,7 +399,7 @@ export default function Home() {
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out object-center"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-500"></div>
-            <div className="relative z-10 h-full flex flex-col justify-center px-6 md:px-12 lg:px-16 max-w-[1600px] mx-auto w-full">
+            <div className="relative z-10 h-full flex flex-col justify-center px-6 md:px-12 lg:px-16 max-w-[1100px] mx-auto w-full">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight drop-shadow-md">CỔ ĐIỂN VÀ TINH TẾ</h2>
               <p className="text-lg text-white/90 mb-8 font-light max-w-lg drop-shadow">Nét đẹp cổ điển đi cùng sức mạnh công nghệ hiện đại.</p>
               <div>
@@ -417,7 +417,7 @@ export default function Home() {
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.5s] ease-out object-center"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-500"></div>
-            <div className="relative z-10 h-full flex flex-col justify-center px-6 md:px-12 lg:px-16 max-w-[1600px] mx-auto w-full">
+            <div className="relative z-10 h-full flex flex-col justify-center px-6 md:px-12 lg:px-16 max-w-[1100px] mx-auto w-full">
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight drop-shadow-md">SỨC MẠNH VƯỢT TRỘI</h2>
               <p className="text-lg text-white/90 mb-8 font-light max-w-lg drop-shadow">Lựa chọn tối ưu cho những nhà làm phim đa năng.</p>
               <div>
@@ -429,13 +429,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* The Blog Section */}
+        {/* Khám phá di sản Leica Section */}
         <section className="py-24 bg-white border-t border-gray-100">
-          <div className="max-w-[1600px] mx-auto px-4 md:px-8">
-            <div className="flex justify-between items-center mb-12">
-              <h2 className="text-4xl font-normal text-black">The CMA Blog</h2>
+          <div className="max-w-[1100px] mx-auto px-4 md:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-5xl font-serif text-black mb-4">Khám phá di sản Leica</h2>
               <button className="border border-black text-black px-6 py-2 rounded-full text-sm font-medium hover:bg-black hover:text-white transition-colors">
-                All Blog Posts
+                Tất cả bài viết
               </button>
             </div>
 

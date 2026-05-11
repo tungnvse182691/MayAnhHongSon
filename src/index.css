@@ -80,8 +80,9 @@ body {
   --color-tertiary-fixed-dim: #ffb692;
 
   --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
 
-  --spacing-container_max: 1400px;
+  --spacing-container_max: 1100px;
   --spacing-section_gap: 64px;
   --spacing-margin_mobile: 16px;
   --spacing-base: 8px;

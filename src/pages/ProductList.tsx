@@ -111,9 +111,9 @@ const CarouselSection = ({ title, items }: { title: string, items: any[] }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12 mb-10 flex justify-between items-end">
-        <h2 className="text-4xl md:text-5xl font-light text-black tracking-tight">{title}</h2>
-        <div className="flex gap-4 hidden md:flex">
+      <div className="max-w-[1100px] mx-auto px-6 md:px-12 mb-10 text-center">
+        <h2 className="text-4xl md:text-5xl font-serif text-black tracking-tight mb-4">{title}</h2>
+        <div className="flex gap-4 justify-center">
           <button 
             className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-black hover:text-white transition-colors"
             onClick={() => {
@@ -178,7 +178,7 @@ export default function ProductList() {
       <main className="pt-24 pb-12 w-full">
         {/* Top Banner Section */}
         <section className="relative w-full mb-8 flex justify-center px-6">
-          <div className="relative w-full max-w-[1400px] h-[600px] rounded-[2rem] overflow-hidden flex flex-col items-center justify-center text-white bg-black">
+          <div className="relative w-full max-w-[1100px] h-[600px] rounded-[2rem] overflow-hidden flex flex-col items-center justify-center text-white bg-black">
             {heroImages.map((src, index) => (
               <img
                 key={src}
@@ -199,7 +199,7 @@ export default function ProductList() {
         <div className="w-full py-4">
           {/* Minimal Filter Bar */}
           <section className="mb-24 border-b border-gray-200 pb-6 mt-8">
-            <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 items-end">
+            <div className="max-w-[1100px] mx-auto px-6 md:px-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 items-end">
               <div className="flex flex-col gap-2">
                 <label className="text-[10px] text-gray-500 flex items-center gap-2 uppercase tracking-widest font-bold">
                   Thương hiệu
@@ -246,7 +246,7 @@ export default function ProductList() {
           <CarouselSection title="Sản phẩm nổi bật" items={PRODUCT_DATA.bestSellers} />
           
           {/* Middle Promotional Banner */}
-          <section className="relative w-[calc(100%-3rem)] max-w-[1400px] h-[500px] mx-auto mb-32 rounded-[2rem] overflow-hidden flex flex-col items-start justify-center p-10 md:p-16 text-white bg-black">
+          <section className="relative w-[calc(100%-3rem)] max-w-[1100px] h-[500px] mx-auto mb-32 rounded-[2rem] overflow-hidden flex flex-col items-start justify-center p-10 md:p-16 text-white bg-black">
              <img src="https://images.unsplash.com/photo-1516961642265-531546e84af2?auto=format&fit=crop&q=80&w=2000" className="absolute inset-0 w-full h-full object-cover opacity-60 transition-transform duration-[20s] hover:scale-105" alt="Promo" />
              <div className="relative z-10 max-w-lg">
                 <h2 className="text-4xl md:text-5xl font-light mb-6 tracking-tight drop-shadow-md">Nền tảng của sự sáng tạo.</h2>
