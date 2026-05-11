@@ -158,10 +158,10 @@ export default function ProductList() {
   const [heroIndex, setHeroIndex] = useState(0);
 
   const heroImages = [
-    "https://images.pexels.com/photos/17215359/pexels-photo-17215359.jpeg",
+    "https://images.pexels.com/photos/14021289/pexels-photo-14021289.jpeg",
     "https://images.pexels.com/photos/1402283/pexels-photo-1402283.jpeg",
-    "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=2000&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?q=80&w=2000&auto=format&fit=crop"
+    "https://images.pexels.com/photos/6136499/pexels-photo-6136499.jpeg",
+    "https://images.pexels.com/photos/3155236/pexels-photo-3155236.jpeg"
   ];
 
   useEffect(() => {
