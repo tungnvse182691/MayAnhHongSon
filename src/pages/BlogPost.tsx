@@ -25,7 +25,7 @@ export default function BlogPost() {
           <div className="absolute bottom-16 left-0 w-full px-6 md:px-12 lg:px-16 text-white text-center md:text-left">
             <FadeIn>
               <p className="text-xs font-bold uppercase tracking-[0.2em] mb-4 opacity-90">Du lịch • Máy ảnh Q</p>
-              <h1 className="text-[34px] leading-[85px] font-semibold mb-6 max-w-4xl">
+              <h1 className="text-3xl md:text-[34px] leading-tight md:leading-[85px] font-semibold mb-4 md:mb-6 max-w-4xl">
                 Fernweh: Khát khao chinh phục những vùng đất mới
               </h1>
               <div className="flex items-center justify-center md:justify-start gap-4 text-sm opacity-80">
